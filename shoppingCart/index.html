@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+	<title>购物车</title>
+	<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+	<div class="page" id="app">	
+		<div class="content">
+			<ul class="list" v-if="isShowFlag">
+				<li v-for="(item,index) in items">
+					<div class="check" :class="{'check-cur': item.checkFlag}" @click="selectCheck(item)"><i></i></div>
+					<img src="images/shopcare.png" />
+					<div class="c">
+						<h3>{{item.name}}</h3>
+						<h6 class="red">{{item.salePrice | formtaMoney('元') }}</h6>
+						<div class="numBox">
+							<i @click="numFun(item,-1)">-</i>
+							<input type="text" readonly="readonly" :value="item.buyNum">
+							<i @click="numFun(item,1)">+</i>
+						</div>
+					</div>
+					<div class="r" @click="deleteItem(index)"></div>
+				</li>
+			</ul>	
+			<div class="noCart" v-if="isNoCartFlag"><img src="images/shopcare.png" /><p>购物车空空如也</p></div>		
+		</div>
+	    <!--结算bar-->
+	    <div class="accountBar" v-if="isShowFlag">
+	    	<div class="check fl" :class="{'check-cur': checkAllFlag}" @click="checkAll"><i></i></div><span class="check-text">全选</span>
+	    	<div class="go fr">去结算(<span>0</span>)</div>
+	    	<div class="total fr">合计：<span class="red">{{totalMoney | formtaMoney('元') }}</span></div>
+	    </div>
+	</div>
+	
+	<script type="text/javascript" src="js/lib/vue.min.js"></script>
+	<script type="text/javascript" src="js/lib/vue-resource.min.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>

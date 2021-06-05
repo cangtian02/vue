@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="./dyVue.js"></script>
+</head>
+<body>
+  
+<div id="app">
+  {{name}}
+  <div>{{age}}</div>
+  <input v-model="test">
+  {{test}}
+</div>
+
+<script>
+  let vm = new vue({
+    el: '#app',
+    data: {
+      name: 'duiying',
+      age: 18,
+      test: 'model'
+    }
+  })
+</script>
+
+</body>
+</html>

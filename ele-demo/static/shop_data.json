@@ -1,0 +1,149 @@
+{
+	"status": 1,
+	"result":{
+		"info": {
+			"id": "001",
+			"name": "苍老师旗舰店",
+			"logo": "../static/default.jpg",
+			"point": "平均30分钟 | 满100配送费1元",
+			"notice": "苍老师出品，必为优品！",
+			"send": "0",
+			"distribution": "10"		
+		},
+		"list": [
+			{
+				"id": "001",
+				"class": "热销榜",
+				"items_title": "热销榜,想吃就吃",
+				"items": [
+						{
+							"id": "001",
+							"name": "超级全家桶",
+							"img": "../static/default.jpg",
+							"dec": "2个鸡腿2个鸡腿2个鸡腿2个鸡腿",
+							"salePrice": 13.5
+						},
+						{
+							"id": "002",
+							"name": "单身狗套餐",
+							"img": "../static/default.jpg",
+							"dec": "1个鸡腿1个鸡腿1个鸡腿1个鸡腿",
+							"salePrice": 8
+						},
+						{
+							"id": "003",
+							"name": "情侣套餐",
+							"img": "../static/default.jpg",
+							"dec": "2个鸡腿2个汉堡2个可乐",
+							"salePrice": 36.6
+						}							
+					]									
+			},
+			{
+				"id": "002",
+				"class": "套餐类",
+				"items_title": "简约套餐，工作餐首选",
+				"items": [
+						{
+							"id": "001",
+							"name": "爆炒鱿鱼",
+							"img": "../static/default.jpg",
+							"dec": "2个鱿鱼2个鱿鱼2个鱿鱼2个鱿鱼",
+							"salePrice": 13.5
+						},
+						{
+							"id": "002",
+							"name": "鱼香肉丝",
+							"img": "../static/default.jpg",
+							"dec": "鱼香肉丝鱼香肉丝鱼香肉丝",
+							"salePrice": 8
+						},
+						{
+							"id": "003",
+							"name": "麻辣豆腐",
+							"img": "../static/default.jpg",
+							"dec": "麻辣豆腐麻辣豆腐麻辣豆腐",
+							"salePrice": 8
+						},
+						{
+							"id": "004",
+							"name": "肉沫茄子",
+							"img": "../static/default.jpg",
+							"dec": "肉沫茄子肉沫茄子肉沫茄子",
+							"salePrice": 8
+						}													
+					]									
+			},
+			{
+				"id": "003",
+				"class": "牛羊类",
+				"items_title": "来自内蒙的牛羊",
+				"items": [
+						{
+							"id": "001",
+							"name": "羊肉串",
+							"img": "../static/default.jpg",
+							"dec": "5份羊肉串",
+							"salePrice": 15
+						},
+						{
+							"id": "002",
+							"name": "牛肉串",
+							"img": "../static/default.jpg",
+							"dec": "5份牛肉串",
+							"salePrice": 15
+						},
+						{
+							"id": "003",
+							"name": "考羊排",
+							"img": "../static/default.jpg",
+							"dec": "考羊排考羊排考羊排考羊排",
+							"salePrice": 62
+						},
+						{
+							"id": "004",
+							"name": "考肥牛",
+							"img": "../static/default.jpg",
+							"dec": "考肥牛考肥牛考肥牛",
+							"salePrice": 13
+						}													
+					]									
+			},	
+			{
+				"id": "002",
+				"class": "酒水",
+				"items_title": "酒水",
+				"items": [
+						{
+							"id": "001",
+							"name": "百事可乐",
+							"img": "../static/default.jpg",
+							"dec": "",
+							"salePrice": 4
+						},
+						{
+							"id": "002",
+							"name": "王老吉",
+							"img": "../static/default.jpg",
+							"dec": "",
+							"salePrice": 5
+						},
+						{
+							"id": "003",
+							"name": "南昌八度",
+							"img": "../static/default.jpg",
+							"dec": "",
+							"salePrice": 8
+						},
+						{
+							"id": "004",
+							"name": "雪花",
+							"img": "../static/default.jpg",
+							"dec": "雪花金标",
+							"salePrice": 7
+						}													
+					]									
+			}																	
+		]
+	}
+}

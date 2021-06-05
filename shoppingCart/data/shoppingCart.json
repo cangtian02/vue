@@ -1,0 +1,27 @@
+{
+	"result":{
+		"list" : [
+			{
+				"name": "滑稽抱枕包邮",
+				"img": "images/shopcare.png",
+				"stork": 5,
+				"buyNum": 1,
+				"salePrice": 9.9
+			},
+			{
+				"name": "大白抱枕包邮",
+				"img": "images/shopcare.png",
+				"stork": 15,
+				"buyNum": 3,
+				"salePrice": 29.9
+			},
+			{
+				"name": "龙猫抱枕包邮",
+				"img": "images/shopcare.png",
+				"stork": 10,
+				"buyNum": 2,
+				"salePrice": 19.9
+			}						
+		]
+	}
+}
